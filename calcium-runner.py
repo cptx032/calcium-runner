@@ -1,11 +1,10 @@
 # coding: utf-8
 
 import sys
-sys.path.extend(['../..', '..', '.', '/home/cptx032/github/calcium/'])
-from get_terminal_size import get_terminal_size as GTS
-import terminal
-import image
-import core
+from calcium.get_terminal_size import get_terminal_size as GTS
+import calcium.terminal as terminal
+import calcium.image as image
+import calcium.core as core
 
 
 class DigitsSheet:
